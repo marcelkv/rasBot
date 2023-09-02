@@ -36,7 +36,7 @@ RasBot is a web application that enables remote control of a robot equipped with
 
 ### Web App
 
-1. Clone the repository:
+1. Clone the [repository](https://github.com/marcelkv/rasBot-webApp):
 
    ```bash
    git clone https://github.com/marcelkv/rasBot-webApp.git
@@ -63,16 +63,16 @@ RasBot is a web application that enables remote control of a robot equipped with
 
 6. Access the web app at `http://localhost:8080` in your browser.
 
-### Raspberry Pi
+### Raspberry Pi 
 
 1. Connect your Raspberry Pi to the robot hardware components (motors and camera).
 
 2. Install Python on your Raspberry Pi if not already installed.
 
-3. Clone the Raspberry Pi control code to your Raspberry Pi:
+3. Clone the [Raspberry Pi](https://github.com/marcelkv/rasBot-rpi) control code to your Raspberry Pi:
 
     ```bash
-    https://github.com/marcelkv/rasBot-rpi.git
+    git clone https://github.com/marcelkv/rasBot-rpi.git
 
 4. Navigate to the Raspberry Pi control code directory:
 
@@ -85,6 +85,7 @@ RasBot is a web application that enables remote control of a robot equipped with
     pip install -r requirements.txt
 
 6. Run the Python script to control the robot:
+
     ```
     python rasbot_control.py
 
